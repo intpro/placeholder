@@ -1,0 +1,27 @@
+{
+    "name": "interpro/placeholder",
+    "description": "Не повторяющиеся плейсхолдеры по запросу, хранящиеся по размерам",
+    "keywords": [
+        "placeholder"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boris Dorofeev",
+            "email": "boris.dorofeev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [],
+        "files": [],
+        "psr-4": {
+            "Interpro\\Placeholder\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
