@@ -10,6 +10,6 @@ interface PlaceholderAgent {
      * @param string $color
      * @return string
      */
-    public function getLink($width, $height, $color = '8421504');
+    public function getLink($width, $height, $color = '#808080');
 
 }
