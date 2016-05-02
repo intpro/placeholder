@@ -51,7 +51,7 @@ class PlaceholderAgent implements PlaceholderAgentInterface{
             chmod($file_path, 0777);
         }
 
-        return $file_name;
+        return config('placeholder.path_prefix').$file_name;
 
     }
 
